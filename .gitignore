@@ -1,0 +1,33 @@
+# Node modules (backend + frontend)
+backend/node_modules/
+frontend/node_modules/
+
+# Env files
+*.env
+backend/.env
+frontend/.env
+
+# Build / dist 
+backend/dist/
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Local SQLite database (optional: if you want DB excluded)
+backend/database.sqlite
+
+# IDE
+.vscode/
+.idea/
